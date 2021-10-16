@@ -5,8 +5,9 @@
 
 > Ant Design of Vue
 ## overview
-![img](https://raw.githubusercontent.com/chiic/vue-contextmenu/master/test01.png)
-![img](https://raw.githubusercontent.com/chiic/vue-contextmenu/master/test02.png)
+![img](https://raw.githubusercontent.com/afan0228/vue-contextmenu-antd/main/test01.png)
+![img](https://raw.githubusercontent.com/afan0228/vue-contextmenu-antd/main/test02.png)
+![img](https://raw.githubusercontent.com/afan0228/vue-contextmenu-antd/main/test03.png)
 
 ## Use Setup
 
@@ -192,6 +193,17 @@ export default {
 }
 </style>
 ```
+### options
+* fnHandler: 'copyItem', // Binding events(绑定事件)
+* btnName: '复制', // The name of the menu option (菜单名称)
+* icoName: 'copy', //The name of the icon option (图标名称)
+
+![img](https://raw.githubusercontent.com/afan0228/vue-contextmenu-antd/main/test03.png)
+```
+  <a-icon type="copy" /> //Ant Design of Vue
+```
+* underline: true, //（是否需要分割线）
+
 ### icon
 use [font Awesome](https://fontawesome.com/),also you can use other UI components icon,for example [elementUI](http://element-cn.eleme.io/).And add the icon class to "icoName". if you set like (icoName: 'el-icon-delete'), that will be add a "Trash" to your page.
 you can add the style file into html like this:
