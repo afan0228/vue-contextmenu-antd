@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      "vue-contextmenu@1.5.10",
+      "C:\\workspace\\omp-web"
+    ]
+  ],
+  "_from": "vue-contextmenu@1.5.10",
+  "_id": "vue-contextmenu@1.5.10",
+  "_inBundle": false,
+  "_integrity": "sha1-sIAIO6WGfGjO1UmnMEJer3W5ja0=",
+  "_location": "/vue-contextmenu",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "vue-contextmenu@1.5.10",
+    "name": "vue-contextmenu",
+    "escapedName": "vue-contextmenu",
+    "rawSpec": "1.5.10",
+    "saveSpec": null,
+    "fetchSpec": "1.5.10"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/vue-contextmenu/download/vue-contextmenu-1.5.10.tgz",
+  "_spec": "1.5.10",
+  "_where": "C:\\workspace\\omp-web",
+  "author": {
+    "name": "fan",
+    "email": "fan02288@163.com"
+  },
+  "dependencies": {
+    "vue": "^2.6.9"
+  },
+  "description": "vue contextmenu",
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-env": "^1.5.1",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "vue-loader": "^12.1.0",
+    "vue-template-compiler": "^2.6.9",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "main": "./dist/vue-contextmenu.min.js",
+  "name": "vue-contextmenu-antd",
+  "private": false,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config webpack.prod.config.js --progress --hide-modules",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack.dev.config.js --hot"
+  },
+  "version": "1.1.12",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afan0228/vue-contextmenu-antd.git"
+  }
+}
