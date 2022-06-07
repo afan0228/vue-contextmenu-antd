@@ -3,7 +3,7 @@
     <div
       @contextmenu="showMenu(index)"
       style="width: 100px;height: 100px;background: red;"
-      v-for="(n, index) in 4"
+      v-for="(n, index) in 2"
       :key="n"
     >
       <vue-context-menu
@@ -62,17 +62,63 @@ export default {
               {
                 fnHandler: "Handler5",
                 btnName: "选项2-1",
+                children: [
+                  {
+                    fnHandler: "Handler5",
+                    btnName: "选项2-1-1",
+                  },
+                ]
+              },
+              {
+                fnHandler: "Handler5",
+                btnName: "选项2-2",
                 disabled: true,
+              },{
+                fnHandler: "Handler5",
+                btnName: "选项2-3",
               }
             ]
           },
           {
             btnName: "选项3",
-            fnHandler: "Handler4"
+            fnHandler: "Handler4",
+            shortcutkey:'ctrl+D'
           },
           {
             btnName: "选项4",
-            disabled: true
+            disabled: false,
+            children: [
+              {
+                icoName: "",
+                btnName: "选项4-1",
+                children: [
+                  {
+                    icoName: "",
+                    btnName: "选项4-1-1"
+                  }
+                ]
+              },
+              {
+                icoName: "",
+                btnName: "选项4-2",
+                children: [
+                  {
+                    icoName: "",
+                    btnName: "选项4-2-1"
+                  }
+                ]
+              },
+              {
+                icoName: "",
+                btnName: "选项4-3",
+                children: [
+                  {
+                    icoName: "",
+                    btnName: "选项4-3-1"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
